@@ -234,16 +234,27 @@ class Commands
     public void PrintHelp()
     {
         Console.WriteLine("create_parking_lot <number> - Create a parking lot with <number> slots");
+        Console.WriteLine();
         Console.WriteLine("park <registration_number> <color> <type> - Park a vehicle with <registration_number>, <color>, <type>");
+        Console.WriteLine();
         Console.WriteLine("leave <slot_number> - Leave a vehicle at <slot_number>");
+        Console.WriteLine();
         Console.WriteLine("status - Print the status of the parking lot");
+        Console.WriteLine();
         Console.WriteLine("type_of_vehicles <type> - Print the number of vehicles with <type>");
+        Console.WriteLine();
         Console.WriteLine("registration_numbers_for_vehicles_with_color <color> - Print the registration numbers of vehicles with <color>");
+        Console.WriteLine();
         Console.WriteLine("slot_numbers_for_vehicles_with_color <color> - Print the slot numbers of vehicles with <color>");
+        Console.WriteLine();
         Console.WriteLine("slot_number_for_registration_number <registration_number> - Print the slot number of vehicle with <registration_number>");
+        Console.WriteLine();
         Console.WriteLine("registration_numbers_for_vehicles_with_odd_plate - Print the registration numbers of vehicles with odd plate");
+        Console.WriteLine();
         Console.WriteLine("registration_numbers_for_vehicles_with_even_plate - Print the registration numbers of vehicles with even plate");
+        Console.WriteLine();
         Console.WriteLine("slot_numbers_for_vehicles_with_color <color> - Print the slot numbers of vehicles with <color>");
+        Console.WriteLine();
         Console.WriteLine("slot_number_for_registration_number <registration_number> - Print the slot number of vehicle with <registration_number>");
     }
 }
