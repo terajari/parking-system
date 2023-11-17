@@ -34,4 +34,6 @@ registration_numbers_for_vehicles_with_even_plate - Print the registration numbe
 slot_numbers_for_vehicles_with_color <color> - Print the slot numbers of vehicles with <color>
 
 slot_number_for_registration_number <registration_number> - Print the slot number of vehicle with <registration_number>
+
+exit - Exit the program
 ```
