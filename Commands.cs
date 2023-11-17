@@ -15,7 +15,7 @@ class Commands
         Console.WriteLine("Created a parking lot with " + parkingSlots + " slots");
     }
 
-    public int GetAvailableSlot()
+    private int GetAvailableSlot()
     {
         for (int i = 1; i <= parkingSlots; i++)
         {
@@ -92,7 +92,7 @@ class Commands
         Console.WriteLine(count);
     }
 
-    public bool IsOddPlate(string plate)
+    private bool IsOddPlate(string plate)
     {
         string digitPlate = new string(plate.Where(char.IsDigit).ToArray());
         int digit = int.Parse(digitPlate);
@@ -105,7 +105,7 @@ class Commands
         return false;
     }
 
-    public bool IsEvenPlate(string plate)
+    private bool IsEvenPlate(string plate)
     {
         string digitPlate = new string(plate.Where(char.IsDigit).ToArray());
         int digit = int.Parse(digitPlate);
